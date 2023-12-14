@@ -466,7 +466,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/thelastofus1.jpeg"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/thelastofus1.jpeg"
             },
             "mixers": 0,
             "sync": 0,
@@ -492,7 +492,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/background-overlay2.0.png"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/background-overlay2.0.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -518,7 +518,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/blackbox.png"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/blackbox.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -567,12 +567,38 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "Cam Overlay",
+            "uuid": "c6bb73bd-9c20-4067-a460-4f190c09105c",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/cam-overlay.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "clicker",
             "uuid": "bf6065b3-b554-49f4-85e8-f7f5f5a71d22",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/clicker.gif"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/clicker.gif"
             },
             "mixers": 0,
             "sync": 0,
@@ -598,7 +624,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/comments.png"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/comments.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -654,29 +680,29 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/rus/Documents/OBS Themes/TLOUpt1/guitar-ellie.png",
                         "selected": false,
-                        "hidden": false
+                        "hidden": false,
+                        "value": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/guitar-ellie.png"
                     },
                     {
-                        "value": "/Users/rus/Documents/OBS Themes/TLOUpt1/kid.png",
                         "selected": false,
-                        "hidden": false
+                        "hidden": false,
+                        "value": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/kid.png"
                     },
                     {
-                        "value": "/Users/rus/Documents/OBS Themes/TLOUpt1/choking.png",
                         "selected": false,
-                        "hidden": false
+                        "hidden": false,
+                        "value": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/choking.png"
                     },
                     {
-                        "value": "/Users/rus/Documents/OBS Themes/TLOUpt1/masks.png",
                         "selected": false,
-                        "hidden": false
+                        "hidden": false,
+                        "value": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/masks.png"
                     },
                     {
-                        "value": "/Users/rus/Documents/OBS Themes/TLOUpt1/spores.png",
                         "selected": false,
-                        "hidden": false
+                        "hidden": false,
+                        "value": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/spores.png"
                     }
                 ],
                 "randomize": false
@@ -711,7 +737,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 25,
+                "id_counter": 26,
                 "custom_size": false,
                 "items": [
                     {
@@ -1060,7 +1086,7 @@
                         "name": "TLOU Theme",
                         "source_uuid": "507622c0-8d88-4767-a5ac-3e9978d7a52f",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": -48.0,
@@ -1093,8 +1119,46 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
+                    },
+                    {
+                        "name": "Cam Overlay",
+                        "source_uuid": "c6bb73bd-9c20-4067-a460-4f190c09105c",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1595.0,
+                            "y": 121.0
+                        },
+                        "scale": {
+                            "x": 0.8825300931930542,
+                            "y": 0.8838951587677002
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 26,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1112,7 +1176,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.TLOU Theme": [],
-                "libobs.hide_scene_item.TLOU Theme": []
+                "libobs.hide_scene_item.TLOU Theme": [],
+                "libobs.show_scene_item.Cam Overlay": [],
+                "libobs.hide_scene_item.Cam Overlay": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1126,7 +1192,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/live.gif"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/live.gif"
             },
             "mixers": 0,
             "sync": 0,
@@ -1152,7 +1218,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/running.gif"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/running.gif"
             },
             "mixers": 0,
             "sync": 0,
@@ -1178,7 +1244,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/Users/rus/Documents/OBS Themes/TLOUpt1/sticker.png"
+                "file": "/Users/rus/Documents/src/OBSThemes/TLOUpt1/Media/sticker.png"
             },
             "mixers": 0,
             "sync": 0,
