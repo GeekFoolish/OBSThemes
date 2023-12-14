@@ -1,3 +1,6 @@
+![IMG_7095](https://github.com/GeekFoolish/OBSThemes/assets/2488791/f6a715b2-4c53-4c90-8a80-305cce691a21)
+
+
 #### Default Base (Canvas) Resolution 
 1920x1080
 
