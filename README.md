@@ -1,3 +1,6 @@
+#### Default Base (Canvas) Resolution 
+1920x1080
+
 #### How to import a Scene Collection 
 
 1. Click Scene Collection in the Menu Bar
