@@ -13,7 +13,7 @@
 2. Click on the imported scene collection
 
 
-### Locating missing files 
+#### Locating missing files 
 
 You'll receive a Missing Files prompt after switching to the imported Scene Collection for the first time. Here is how you fix it.
 1. Click Search Directory
